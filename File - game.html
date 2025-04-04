@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Guessing Game</title>
+  
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Word Guessing Game</h1>
+    <p>Can you guess the secret word?</p>
+    
+    <input type="text" id="guessInput" placeholder="Enter your guess">
+    <button id="submitButton">Submit Guess</button>
+    
+    <div class="message" id="feedbackMessage"></div>
+    
+    <button id="restartButton" style="display:none;">Restart Game</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
